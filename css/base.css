@@ -15,3 +15,12 @@ footer {
 nav {
     margin-bottom: 8px;
 }
+
+.jumbotron {
+    width:100%;
+    margin-top: 8px;
+}
+
+.nav {
+    margin-bottom: 18px;
+}
