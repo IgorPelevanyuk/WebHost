@@ -34,6 +34,12 @@
         color: white;
         padding: 15px 30px;
       }
+
+      .row p, .row ul {
+        line-height: 1.7;
+        font-size: 18px;
+      }
+
     </style>
 
 
@@ -46,89 +52,91 @@
   </head>
   <body>
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">MICC</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MICC</a>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Infrastructure<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" placeholder="Search" type="text">
+          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-    <div class="collapse navbar-collapse" id="navbarColor02">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" placeholder="Search" type="text">
-        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+    <ul class="nav justify-content-center nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Computing Cloud</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">HybriLIT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GRID</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Batch-farm</a>
+      </li>
+    </ul>
   
     <div class="container">
 
       <div class="row">
         <div class="jumbotron">
-          <h1 class="display-3">Welcome to MICC!</h1>
-          <p class="lead">Multifunctional Information Computing Center which unites four major resourses: Batch-farm, Computing Cloud, GRID and HybriLIT. With the services running on MICC you can give a boost to your research.</p>
-          <hr class="my-4">
-          <p>We are also happy to provide you a bunch of other services helpful in everyday work.</p>
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Get Services</a>
-          </p>
+          <h1 class="display-3">Computing Cloud</h1>
+          <p class="lead"></p>
         </div>
       </div><!--/row-->
 
-      <div class="card-deck">
-          <div class="card">
-            <img class="center-block" src="img/clouds.png">
-            <div class="card-block">
-              <h4 class="card-title">Computing Cloud</h4>
-              <p class="card-text">You need more computers to do your research? Create them in our cloud using web interface. Choose amount of cores, RAM and operation system for your purposes.</p>
-            </div>
-            <div class="card-footer">
-              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use cloud &raquo;</a></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="center-block" src="img/video-card.png">
-            <div class="card-block">
-              <h4 class="card-title">HybriLIT</h4>
-              <p class="card-text">Harness parallel features of modern accelerators. Use 1000s of cores in one moment to get results as fast as it possible.</p>
-            </div>
-            <div class="card-footer">
-              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use hybrid &raquo;</a></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="center-block" src="img/wlcg_icon.png">
-            <div class="card-block">
-              <h4 class="card-title">GRID-computing</h4>
-              <p class="card-text">If you are a member of one of LHC experiments then you can access our GRID cluster to perform analyzis.</p>
-            </div>
-            <div class="card-footer">
-              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use grid &raquo;</a></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="center-block" src="img/server.png">
-            <div class="card-block">
-              <h4 class="card-title">Batch farm</h4>
-              <p class="card-text">Batch farm is a set of servers which you can load with your tasks. To use parallel features of farm use MPI jobs.</p>
-            </div>
-            <div class="card-footer">
-              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use batch &raquo;</a></p>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-12 col-md-3 push-md-9 bd-sidebar">
+        <h2>Status: <span class="badge badge-success">Online</span></h2>
+        <p>Uptime: 99.9%</p>
+        <h2>Stats</h2>
+          <ul><p>
+            <li>CPUs: 147</li>
+            <li>RAM: 240GB</li>
+            <li>HardDisk: 4TB</li>
+            </p>
+          </ul>        
         </div>
+        <div class="col-12 col-md-9 pull-md-3 bd-content">
+          <h2>Purpose</h2>
+          <p>
+            In order to manage LIT IT services and servers more efficiently using modern technologies, to increase the efficiency of hardware utilization and services reliability, to simplify access to application software and to optimize proprietary software usage as well as to provide a modern computing facility for JINR users the local private cloud infrastructure was created.
+          </p>
+          <p>
+            Nowadays, JINR cloud host most of the services MICC could provide to you.
+          </p>
+          <h2>Who can use</h2>
+          <p>
+            The JINR cloud service can be used by authenticated users only. Currently it is configured to authenticate users registered in JINR users database (JINR UDB for short) only. JINR UDB registration procedure is identical to AFS or CICC ones since Kerberos is used for authentication in both of them.
+          </p>
+          <h2>How to know if you need cloud</h2>
+          <p>
+            You would like to have more computers in your disposal.<br>
+            You don't care where they are placed.<br>
+            You can reach your goals with computers accessing them remotely.<br>
+          </p>
+
+          <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use JINR cloud &raquo;</a></p>
+        </div>
+      </div><!--/row-->
+
       <hr>
 
       <footer>
