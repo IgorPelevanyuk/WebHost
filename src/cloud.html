@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MICC - Main Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&amp;subset=cyrillic" rel="stylesheet">
+    <style>
+      .card img {
+          width:100px;
+          height: 100px;
+          margin: 0 auto;
+      }
+
+      .card {
+          padding-top: 16px;
+          margin-top:10px;
+      }
+
+      p.text-center {
+          margin:0px;
+      }
+      .jumbotron {
+        background-image: url("img/jumbo_back_r_blured.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        background-size: cover;
+        color: white;
+        padding: 15px 30px;
+      }
+    </style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">MICC</a>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" placeholder="Search" type="text">
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+    <div class="container">
+
+      <div class="row">
+        <div class="jumbotron">
+          <h1 class="display-3">Welcome to MICC!</h1>
+          <p class="lead">Multifunctional Information Computing Center which unites four major resourses: Batch-farm, Computing Cloud, GRID and HybriLIT. With the services running on MICC you can give a boost to your research.</p>
+          <hr class="my-4">
+          <p>We are also happy to provide you a bunch of other services helpful in everyday work.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Get Services</a>
+          </p>
+        </div>
+      </div><!--/row-->
+
+      <div class="card-deck">
+          <div class="card">
+            <img class="center-block" src="img/clouds.png">
+            <div class="card-block">
+              <h4 class="card-title">Computing Cloud</h4>
+              <p class="card-text">You need more computers to do your research? Create them in our cloud using web interface. Choose amount of cores, RAM and operation system for your purposes.</p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use cloud &raquo;</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="center-block" src="img/video-card.png">
+            <div class="card-block">
+              <h4 class="card-title">HybriLIT</h4>
+              <p class="card-text">Harness parallel features of modern accelerators. Use 1000s of cores in one moment to get results as fast as it possible.</p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use hybrid &raquo;</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="center-block" src="img/wlcg_icon.png">
+            <div class="card-block">
+              <h4 class="card-title">GRID-computing</h4>
+              <p class="card-text">If you are a member of one of LHC experiments then you can access our GRID cluster to perform analyzis.</p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use grid &raquo;</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="center-block" src="img/server.png">
+            <div class="card-block">
+              <h4 class="card-title">Batch farm</h4>
+              <p class="card-text">Batch farm is a set of servers which you can load with your tasks. To use parallel features of farm use MPI jobs.</p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center"><a class="btn btn-primary" href="#" role="button">Use batch &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+
+    </div><!--/.container-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
+
