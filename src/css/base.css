@@ -1,0 +1,17 @@
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+  padding: 10px 0;
+}
+
+nav {
+    margin-bottom: 8px;
+}
