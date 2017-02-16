@@ -4,8 +4,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Ubuntu', sans-serif;
+h1 {
+    font-family: 'Roboto Light', sans-serif ;
+}
+
+h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 footer {
@@ -23,4 +27,68 @@ nav {
 
 .nav {
     margin-bottom: 18px;
+}
+
+.person {
+    max-width: 100%;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+.person-name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.person-position {
+    color:grey;
+    text-align: center;
+}
+
+.btn-imaged {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 8px;
+    padding: 25px 15px !important;
+    font-size: 20px !important;
+    border-style: none !important;
+
+}
+
+.tech-details {
+    background-image: url("../img/technical-details.png") !important;
+    background-position: center bottom;
+    color: rgb(25,25,25) !important;
+    opacity:0.75;
+    text-shadow: 1px 1px 3px rgba(256, 256, 256, 1);
+    transition: all .2s ease-in-out;
+}
+.tech-details:hover {
+    background-image: url("../img/technical-details.png") !important;
+    color: rgb(0,0,0) !important;
+    opacity:1;
+}
+    
+
+.publications {
+    background-image: url("../img/publications.png") !important;
+    background-position: top center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    opacity:0.75;
+    transition: all .2s ease-in-out;
+}
+
+.publications:hover {
+    background-image: url("../img/publications.png") !important;
+    opacity:1;
+    transition: all .2s ease-in-out;
+}
+
+.manual {
+    width: 100%;
+    margin:0px 8px 16px 8px ;
+    padding: 25px 15px !important;
+    font-size: 20px !important;
 }
