@@ -50,8 +50,8 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin: 8px;
-    padding: 25px 15px !important;
+    margin: 8px auto;
+    padding: 18px 15px !important;
     font-size: 20px !important;
     border-style: none !important;
 
@@ -86,9 +86,23 @@ nav {
     transition: all .2s ease-in-out;
 }
 
+.tutorials {
+    background-image: url("../img/Lecture.jpg") !important;
+    background-position: center center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    opacity:0.75;
+    transition: all .2s ease-in-out;
+}
+
+.tutorials:hover {
+    background-image: url("../img/Lecture.jpg") !important;
+    opacity:1;
+    transition: all .2s ease-in-out;
+}
+
 .manual {
     width: 100%;
-    margin:0px 8px 16px 8px ;
-    padding: 25px 15px !important;
+    margin: 5px auto;
+    padding: 18px 15px !important;
     font-size: 20px !important;
 }
