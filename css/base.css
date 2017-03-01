@@ -17,16 +17,21 @@ footer {
 }
 
 nav {
-    margin-bottom: 8px;
+    font-size: 20px;
+}
+.container {
+    box-shadow: 0 1px 30px rgba(0,0,0,.1);
+    padding-top: 10px;
 }
 
 .jumbotron {
     width:100%;
-    margin-top: 8px;
+    margin: 8px;
 }
 
 .nav {
     margin-bottom: 18px;
+    font-size: 20px;
 }
 
 .person {
