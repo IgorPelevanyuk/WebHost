@@ -59,7 +59,7 @@ nav {
 }
 
 .nav {
-    margin-bottom: 18px;
+    margin-bottom: 3px;
     font-size: 20px;
 }
 
@@ -73,7 +73,8 @@ nav {
 }
 
 .person {
-    max-width: 100%;
+    max-width: 220px;
+    width:100%;
     border: 1px solid #000;
     border-radius: 6px;
 }
@@ -81,10 +82,19 @@ nav {
 .person-name {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .person-position {
     color:grey;
+    text-align: center;
+}
+
+.person-contacts {
+    text-align: center;
+}
+
+.crew-link {
     text-align: center;
 }
 
